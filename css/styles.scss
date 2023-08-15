@@ -1,0 +1,51 @@
+$primary-color: rgb(248,249,250);
+
+nav {
+    .navbar-brand, .navbar-item{
+        padding: 15px;
+    }
+
+    .navbar-toggler{
+        margin-right: 15px;
+        padding: 2.5px;
+    }
+}
+
+#main-title, #local-time {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#main-title {
+    margin: 30px;
+    padding: 5px;
+}
+
+#map { 
+    height: 580px;
+    margin: 3em 5em 5em 5em; 
+}
+
+form {
+    background-color: $primary-color;
+    margin-bottom: 4em;
+    padding: 2em;
+    }
+
+form label {
+    margin: 8px auto 8px auto
+}
+
+form button {
+    margin-top: 8px;
+}
+
+// ABOUT PAGE 
+#about-main-text{
+    margin: 2em;
+    margin-bottom: 3em;
+}
+
+#about-main-heading{
+    margin-top: 2em;
+}
