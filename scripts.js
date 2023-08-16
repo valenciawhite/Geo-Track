@@ -70,3 +70,14 @@ function updateLocalTimeDisplay(){
 }
 
 getLocalTime();
+
+// function getUserData(){
+//     fetch('http://localhost:3000/users')
+//     .then(res => res.json())
+//     .then(data => {
+//         userData = data;
+//         console.log(userData)
+//     })
+// }
+
+// getUserData();
